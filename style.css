@@ -1,0 +1,117 @@
+﻿body {
+	background-image:url('images/bg.gif');
+	background-repeat:repeat-x;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#container
+{
+	color: #000;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	padding:0;
+}
+
+#header
+{
+	width: 100%;
+	padding: 10px;
+	color:#FFF;
+}
+#header a {
+	text-transform:none;
+	color:#FFF;
+	text-decoration:none;
+}
+
+#header h1 { margin: 0; 
+font-size:22px;
+}
+
+#navigation{
+	width:100%;
+	padding:0;
+	margin:0;	
+	min-height:35px;
+	height:auto;
+}
+#navigation ul {
+	padding:5px 5px 5px 5px;
+	margin:0;
+	list-style:none;
+}
+#navigation li {
+	display:inline-block;
+	float:right;
+}
+#navigation li:hover{
+	display:inline-block;
+	float:right;
+}
+#navigation a {
+	color:#FFF;
+	text-decoration:none;
+	padding-top:5px;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:9px;
+}
+#navigation a:visited{
+	color:#FFF;
+}
+#navigation a:hover{
+	color:#FFF;
+	background-color:#4E78A0;
+	padding-top:5px;
+	padding-bottom:7px;
+}
+#content-container1
+{
+	float: left;
+	width: 100%;
+	background-color:#F9F9F9;
+}
+.bigfont {
+	color:#333;
+	padding-left:0px;
+	font-size:22px;
+}
+
+#content-container2
+{
+	float: left;
+	width: 100%;
+	
+}
+
+#section-navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#section-navigation ul li
+{
+	margin: 0 0 1em;
+	padding: 0;
+	list-style-type: none;
+}
+
+#content
+{
+	color:#000;
+	float: left;
+	width: 56%;
+	padding: 0px 0;
+	margin: 0 0 0 1%;
+}
+
+#content h2 { margin: 0; }
+
+#footer
+{
+	clear: both;
+	text-align:center;
+	padding: 20px;
+	height: 1%;
+}
