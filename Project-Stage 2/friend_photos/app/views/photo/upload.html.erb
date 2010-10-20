@@ -1,0 +1,23 @@
+<h2>Photo</h2>
+<% form_tag("upload", :multipart => true) do %>
+<fieldset>
+    <legend>
+        <%= @title %>
+    </legend>
+    <% if @user.photo.exists? %>
+    <div class="form_row">
+        <label for="current_photo">
+            Photo:
+        </label>
+        <%= photo_tag(@user) %>
+    </div>
+    <% end %>
+    <div class="form_row">
+        <label for="new_photo">
+            New Photo:
+        </label>
+        <%= file_field "photo", "image" %>
+    </div>
+    <%= submit_tag "Upload Photo", :class => "submit" %>
+</fieldset>
+<% end %>
